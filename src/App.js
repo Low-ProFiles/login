@@ -37,7 +37,6 @@ function App() {
       <p>Password</p>
       <input name="password" type='password' value={password} onChange={handleChange} />
       <br />
-      <br />
       <button type="submit">Submit</button>
       <p>{message}</p>
     </form>
